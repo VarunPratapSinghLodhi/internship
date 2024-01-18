@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML content -->
+    <div id="exampleElement">Initial content</div>
+
+    <!-- Your script -->
+    <script>
+        // Access the HTML element by its id
+        var element = document.getElementById("exampleElement");
+
+        // Update the content using innerHTML
+        element.innerHTML = "This content has been dynamically updated using JavaScript!";
+
+        // Using document.write() to write content to the document
+        document.write("<h1>Hello, World! This is written using document.write()</h1>");
+
+        // Using console.log
+        console.log("Hello, World!");
+
+        // Using window.alert
+        window.alert("Hello, World!");
+    </script>
+
+    <!-- Your button outside the script -->
+    <button onclick="window.print()">Print this page</button>
+</body>
+</html>
