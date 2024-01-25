@@ -1,0 +1,11 @@
+.tab {
+    display: none;
+}
+
+.active-tab {
+    display: block;
+}
+
+.tab-button {
+    cursor: pointer;
+}
